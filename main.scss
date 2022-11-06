@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+// fonts used
+$logo-font: "Luckiest Guy", sans-serif;
+$font-body: "Roboto", sans-serif;
+$bold-font: 600;
+$light-font: 300;
+$bolder-font: 750;
+
+// colour palette
+$color-primary: #0f3152;
+$color-secondary: #1f82e6;
+$color-white: #fcfcfc;
+$color-offwhite: #ecf5d8;
+$color-footer: #dfd368;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+}
+
+link {
+    text-decoration: none;
+}
+nav {
+    height: 20vh;
+    background-color: $color-white;
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 4 1;
+}
+
+.logo {
+    font-family: $logo-font;
+    font-weight: 500;
+    font-size: 3rem;
+    color: $color-primary;
+}
+.nav-button {
+    font-weight: $bold-font;
+    font-size: large;
+    border: 0.2rem solid $color-primary;
+    padding: 5% 10%;
+    border-radius: 0.5rem;
+}
