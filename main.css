@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color: #0f3152;
+  background-color: #fcfdf2;
 }
 
 link {
@@ -13,25 +14,41 @@ link {
 
 nav {
   height: 20vh;
-  background-color: #fcfcfc;
-  padding: 0 10% 0 10%;
+  width: 100%;
+  background-color: #fcfdf2;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 4 1;
 }
-
-.logo {
+nav .logo {
   font-family: "Luckiest Guy", sans-serif;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 10vmax;
   color: #0f3152;
+  flex: auto;
+  text-align: left;
+  margin-left: 5%;
 }
-
-.nav-button {
+nav .nav-button {
   font-weight: 600;
   font-size: large;
-  border: 0.2rem solid #0f3152;
-  padding: 5% 10%;
+  border: 0.15rem solid #0f3152;
+  padding: 2vmax 5vmax 2vmax 5vmax;
   border-radius: 0.5rem;
+  flex: initial;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #1f82e6;
+  font-weight: 750;
+  padding: 5% 0 10% 0;
 }/*# sourceMappingURL=main.css.map */
