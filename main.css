@@ -19,6 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 nav .logo {
   font-family: "Luckiest Guy", sans-serif;
@@ -44,6 +45,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5% 0 5%;
 }
 
 h1 {
@@ -51,4 +53,95 @@ h1 {
   color: #1f82e6;
   font-weight: 750;
   padding: 5% 0 10% 0;
+}
+
+.call-to-action {
+  text-align: center;
+}
+.call-to-action h2 {
+  font-size: 2rem;
+  margin: 10% 3% 10% 3%;
+}
+.call-to-action h3 {
+  font-size: 1.5rem;
+  color: #1f82e6;
+  margin: 10% 3% 10% 3%;
+}
+.call-to-action p {
+  margin: 10% 3% 10% 3%;
+}
+.call-to-action a {
+  width: 50%;
+  display: inline-block;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.body-button {
+  color: #fdfdfd;
+  background-color: #0f3152;
+  padding: 3% 2% 3% 2%;
+  border-radius: 0.6rem;
+  border: 5px solid #0f3152;
+  display: block;
+  text-align: center;
+  width: 60%;
+}
+
+.KSP-penguins {
+  display: inline-block;
+  flex: auto;
+}
+
+.KSP-divs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 5%;
+}
+
+.key-selling-points {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 2% 5% 2%;
+  align-items: center;
+}
+.key-selling-points p {
+  font-size: 1.2rem;
+}
+
+.bold-body-text {
+  font-weight: 600;
+}
+
+.bolder-body-text {
+  font-weight: 750;
+}
+
+.light-weight-body-text {
+  font-weight: 300;
+}
+
+#annoyinglybigpenguin {
+  flex: 1 1 0.5;
+}
+
+#bigpengdiv {
+  margin-top: 5%;
+}
+
+footer {
+  width: 100vw;
+  background-color: #ebda44;
+  text-align: center;
+}
+footer a {
+  display: block;
+  text-align: center;
+  padding: 0.1rem 0 0.1rem 0;
 }/*# sourceMappingURL=main.css.map */

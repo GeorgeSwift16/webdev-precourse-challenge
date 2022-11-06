@@ -12,7 +12,7 @@ $color-primary: #0f3152;
 $color-secondary: #1f82e6;
 $color-offwhite: #fcfdf2;
 $color-white: #fdfdfd;
-$color-footer: #dfd368;
+$color-footer: #ebda44;
 //universal
 * {
     margin: 0;
@@ -33,6 +33,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     
     .logo {
         font-family: $logo-font;
@@ -58,10 +59,99 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0 5% 0 5%;
 }
 h1 {
     text-align: center;
     color: $color-secondary;
     font-weight: $bolder-font;
     padding: 5% 0 10% 0;
+}
+.call-to-action {
+    text-align: center;
+    
+    h2 {
+        font-size: 2rem;
+        margin: 10% 3% 10% 3%;
+    }
+    h3 {
+            font-size: 1.5rem;
+            color: $color-secondary; 
+            margin: 10% 3% 10% 3%;
+    }
+    p {
+        margin: 10% 3% 10% 3%;
+    }
+    a {
+        width: 50%;
+        display: inline-block;
+        font-weight: $bolder-font;
+        text-decoration: none;
+    }
+    
+}
+
+.body-button {
+    color: $color-white;
+    background-color: $color-primary;
+    padding: 3% 2% 3% 2%;
+    border-radius: 0.6rem;
+    border: 5px solid $color-primary;
+    display: block;
+    text-align: center;
+    width: 60%;
+}
+
+.KSP-penguins {
+    display:inline-block;
+    flex: auto;
+}
+
+.KSP-divs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 5%;
+}
+
+.key-selling-points {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2% 5% 2%;
+    align-items: center;
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+.bold-body-text {
+    font-weight: $bold-font;
+}
+.bolder-body-text {
+    font-weight:$bolder-font;
+}
+.light-weight-body-text {
+    font-weight: $light-font;
+}
+#annoyinglybigpenguin {
+    flex:1 1 0.5;
+}
+#bigpengdiv {
+    margin-top: 5%;
+}
+
+footer {
+    width: 100vw;
+    background-color:$color-footer;
+    text-align: center;
+    a { 
+        display: block;
+        text-align: center;
+        padding: 0.1rem 0 0.1rem 0;
+    }
 }
