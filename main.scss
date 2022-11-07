@@ -28,29 +28,28 @@ link {
 }
 nav {
     height: 20vh;
-    width: 100%;
+    width: 90%;
     background-color: $color-offwhite;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     
     .logo {
         font-family: $logo-font;
         font-weight: 500;
-        font-size: 10vmax;
+        font-size: 4rem;
         color: $color-primary;
         flex: auto;
         text-align: left;
-        margin-left: 5%;
     }
     .nav-button {
         font-weight: $bold-font;
-        font-size: large;
+        font-size: 2rem;
         border: 0.15rem solid $color-primary;
-        padding: 2vmax 5vmax 2vmax 5vmax;
+        padding: 2vw 5vw 2vw 5vw;
         border-radius: 0.5rem;
-        flex: initial;
+        flex: none;
         text-align: center;
     }
 }
@@ -59,7 +58,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5% 0 5%;
+    padding: 0 2% 0 2%;
 }
 h1 {
     text-align: center;
@@ -153,5 +152,9 @@ footer {
         display: block;
         text-align: center;
         padding: 0.1rem 0 0.1rem 0;
+        background-color: $color-footer;
+        text-decoration: none;
     }
 }
+
+//media queries
