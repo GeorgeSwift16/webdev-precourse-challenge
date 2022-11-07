@@ -99,6 +99,9 @@ h1 {
     display: block;
     text-align: center;
     width: 60%;
+    a {
+        text-decoration: none;
+    }
 }
 
 .KSP-penguins {
@@ -110,6 +113,7 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-bottom: 2%;
 }
 
 h4 {
@@ -125,6 +129,10 @@ h4 {
     align-items: center;
     p {
         font-size: 1.2rem;
+    }
+    a {
+        text-decoration: none;
+        font-weight: $bold-font;
     }
 }
 
@@ -157,4 +165,54 @@ footer {
     }
 }
 
-//media queries
+//media queries/breakpoints
+@media screen and (min-width: 300px) {
+    body {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    nav {
+        justify-content: space-around;
+        width: 80%;
+        .logo {
+            width: 70%;
+            margin-left: 5%;
+        }
+        .nav-button {
+            flex: initial;
+        }
+    }
+    .KSP-divs {
+        width: 80%;
+        align-items: space-between;
+        justify-content: space-between;
+        flex-grow: 3 1;         
+    }
+    .KSP-P {
+        width: 70%;
+    }
+    .KSP-penguins {
+        flex: none;
+    }
+    #bigpengdiv{
+        margin:auto;
+        flex-grow: 2 1;
+
+    }
+    #annoyinglybigpeng {
+        flex: auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    nav {
+        justify-content: ;
+    }
+
+
+
+
+
+}

@@ -86,6 +86,9 @@ h1 {
   text-align: center;
   width: 60%;
 }
+.body-button a {
+  text-decoration: none;
+}
 
 .KSP-penguins {
   display: inline-block;
@@ -96,6 +99,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  margin-bottom: 2%;
 }
 
 h4 {
@@ -112,6 +116,10 @@ h4 {
 }
 .key-selling-points p {
   font-size: 1.2rem;
+}
+.key-selling-points a {
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .bold-body-text {
@@ -145,4 +153,43 @@ footer a {
   padding: 0.1rem 0 0.1rem 0;
   background-color: #ebda44;
   text-decoration: none;
+}
+
+@media screen and (min-width: 300px) {
+  body {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  nav {
+    justify-content: space-around;
+    width: 80%;
+  }
+  nav .logo {
+    width: 70%;
+    margin-left: 5%;
+  }
+  nav .nav-button {
+    flex: initial;
+  }
+  .KSP-divs {
+    width: 80%;
+    align-items: space-between;
+    justify-content: space-between;
+    flex-grow: 3 1;
+  }
+  .KSP-P {
+    width: 70%;
+  }
+  .KSP-penguins {
+    flex: none;
+  }
+  #bigpengdiv {
+    margin: auto;
+    flex-grow: 2 1;
+  }
+  #annoyinglybigpeng {
+    flex: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
